@@ -1,0 +1,22 @@
+[
+    {
+        "name": "root",
+        "isSystem": true,
+        "descendants": [
+            "admin",
+            "customer"
+        ]
+    },
+    {
+        "name": "admin",
+        "isSystem": true,
+        "descendants": [
+            "customer"
+        ]
+    },
+    {
+        "name": "customer",
+        "isSystem": true,
+        "descendants": []
+    }
+]
